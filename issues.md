@@ -8,7 +8,7 @@ This document outlines the issues discovered, their impact on the system, and th
 
 ## Disk Alert Service Ticket
 
-![Alert Ticket](images/alert_ticket_censored[issues].png)
+![Alert Ticket](images/alert_ticket_censored_issues.png)
 
 ## Key Issues
 
