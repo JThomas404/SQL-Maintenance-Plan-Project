@@ -55,7 +55,7 @@ In the next phase, we will transition to a more robust backup solution that ensu
 
    These servers will serve as **test and upgrade staging** environments. The upgrade testing will run 24x7 to simulate production environments and verify backup performance during critical operations.
 
-   ![Staging and Testing Servers Diagram](images/bb_current_aws-architecture_censored_migration_plan.png)
+   ![Staging and Testing Servers Diagram](images/bb_PII_censored_migration_plan.png)
 
 ### Backup Solution Transition:
 - **Backup Migration to AWS S3**: Move backup storage to **AWS S3** for scalable, secure, and cost-effective cloud-based backup storage.
@@ -121,7 +121,7 @@ In the next phase, we will transition to a more robust backup solution that ensu
 4. **Amazon Glacier**:
    - Long-term storage for older backups to reduce costs without sacrificing data availability.
 
-5. **AWS CloudFormation**:
+5. **AWS CloudFormation/Terraform**:
    - Used to automate the infrastructure provisioning, ensuring consistency across backup environments.
 
 ---

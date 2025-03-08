@@ -44,7 +44,7 @@ The backups were being stored on the same server as the SQL Server, with no off-
 - No disaster recovery mechanism was in place, increasing the risk of critical data loss.
 
 ### 5. **No Backup Retention Policy**
-The maintenance plan did not have a proper backup retention policy. There was no automated system to delete backups older than a certain period, leading to an accumulation of outdated backup files.
+The SQL maintenance plan did not have a proper backup retention policy. There was no automated system to delete backups older than a certain period, leading to an accumulation of outdated backup files.
 
 **Impact:**
 - Unmanaged growth of backup files contributed to storage limitations.
@@ -58,7 +58,7 @@ The following actions were taken to resolve the identified issues:
 Manual deletion of redundant **.dmp** files and other unnecessary data was performed to free up space and allow backups to run.
 
 ### 2. **Implementation of SQL Maintenance Plan**
-A SQL Maintenance Plan was set up to automatically delete backups older than 1 day, ensuring that old data does not accumulate and consume unnecessary space.
+A SQL Maintenance Plan was set up to automatically delete backups older than 24 hours, ensuring that old data does not accumulate and consume unnecessary space.
 
 ### 3. **Storage Configuration Changes**
 A recommendation was made to move backups off the C: drive to separate drives (D: and E:) to improve storage management and prevent disk contention between SQL Server data and backups.

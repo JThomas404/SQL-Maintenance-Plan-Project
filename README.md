@@ -29,15 +29,14 @@ I reviewed the system in detail and identified several key areas that contribute
 
 To address the problem, I proposed several solutions to optimize backup processes and improve the infrastructure. More details can be found in the [Solution Page](solution.md).
 
-1. **Immediate Space Clearance:** I manually deleted redundant **.dmp** files and other unnecessary data to free up space.
-2. **Maintenance Plan Fix:** I reordered the maintenance tasks to run the **Backup Cleanup Task** before the **Backup Task**.
-3. **Disk Space Advisory:** I recommended that the client add separate D: and E: drives for backups, quoting scalable storage options.
-4. **High Availability Migration:** I initiated a migration project to enable off-server backup storage, ensuring data redundancy.
+1. **Immediate Space Clearance:** I manually deleted redundant files to free up space.
+2. **Disk Space Advisory:** I advised that the customer add separate D: and E: drives for backups, quoting scalable storage options.
+3. **High Availability Migration:** We (Seidor Networks) initiated a migration project to enable off-server backup storage, ensuring data redundancy.
 
 ## Best Practices Implemented
 
-- **Separation of Concerns:** Isolated backups on a separate drive to prevent disk contention with live databases.
-- **Backup Retention Policy:** Configured automated deletion of backups older than 7 days.
+- **Separation of Concerns:** Isolated backups on a separate drive to prevent disk contention with live databases.  
+- **Backup Retention Policy:** Configured automated deletion of backups older than 24 hours once the SQL database backups have successfully completed.  
 - **Off-Site Storage:** Recommended cloud-based backup solutions for disaster recovery.
 
 ## Results

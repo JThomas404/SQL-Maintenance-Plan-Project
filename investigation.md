@@ -11,7 +11,7 @@ I escalated the matter to the SAP Team to remove any other unnecessary files to 
 
 ![Low Disk Space](images/4gb_low_disk_space_investigation.png)
 
-At the time, I wasn’t aware that this was due to the backup files from the previous day not deleting. This required me to manually clear up space and remove the backups.
+At the time, I wasn not aware that this was due to the backup files from the previous day not deleting. This required me to manually clear up space and remove the backups.
 
 ![Backup Files](images/SQL_backups_investigation.png)
 
@@ -84,6 +84,6 @@ After freeing up sufficient space, I monitored the SQL Maintenance Plan's execut
 
 ## Conclusion
 
-The issue was caused by a combination of disk space limitations and the configuration of the maintenance plan. By adjusting the order of operations and freeing up disk space, the plan was able to run successfully. Going forward, I recommend implementing a more robust storage solution with backups on a separate disk or off-site to prevent similar issues.
+The issue was caused by a combination of disk space limitations and the configuration of the maintenance plan. By freeing up disk space, the plan was able to run successfully. Going forward, I recommend implementing a more robust storage solution with backups on a separate disk or off-site to prevent similar issues.
 
 For more information on the solutions implemented, see the [solutions.md](solution.md).
