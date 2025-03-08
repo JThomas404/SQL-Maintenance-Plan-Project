@@ -18,7 +18,7 @@ These issues led to a cycle of failed backups and a critical risk of data loss.
 
 ## Investigation
 
-I reviewed the system in detail and identified several key areas that contributed to the issue. For a full breakdown of the investigation process, please refer to the [Investigation Page](pages/investigation.md).
+I reviewed the system in detail and identified several key areas that contributed to the issue. For a full breakdown of the investigation process, please refer to the [Investigation Page](investigation.md).
 
 1. **Maintenance Plan Review:** I reviewed the SQL Server maintenance plan configuration.
 2. **Job History Analysis:** I checked SQL Server Agent job logs, which showed backup tasks failing daily at 2 AM.
@@ -27,7 +27,7 @@ I reviewed the system in detail and identified several key areas that contribute
 
 ## Solution
 
-To address the problem, I proposed several solutions to optimize backup processes and improve the infrastructure. More details can be found in the [Solution Page](pages/solution.md).
+To address the problem, I proposed several solutions to optimize backup processes and improve the infrastructure. More details can be found in the [Solution Page](solution.md).
 
 1. **Immediate Space Clearance:** I manually deleted redundant **.dmp** files and other unnecessary data to free up space.
 2. **Maintenance Plan Fix:** I reordered the maintenance tasks to run the **Backup Cleanup Task** before the **Backup Task**.
