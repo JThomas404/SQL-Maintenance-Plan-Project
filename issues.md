@@ -70,4 +70,4 @@ A migration plan was initiated to move backups off the server and into cloud-bas
 
 After addressing these issues, the backups ran successfully, and disk space problems were resolved. The overall system performance improved, and the risk of data loss was greatly reduced due to improved infrastructure and the implementation of best practices.
 
-Please refer to the [Investigation Page](pages/investigation.md) for the process as to how I troubleshooted the issue and detailed internal notes of the investigation process.
+Please refer to the [Investigation Page](investigation.md) for the process as to how I troubleshooted the issue and detailed internal notes of the investigation process.
