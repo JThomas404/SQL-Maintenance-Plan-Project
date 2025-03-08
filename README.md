@@ -18,7 +18,7 @@ These issues led to a cycle of failed backups and a critical risk of data loss.
 
 ## Investigation
 
-I reviewed the system in detail and identified several key areas that contributed to the issue. For a full breakdown of the investigation process, please refer to the **Investigation Page**. It is recommended to first review the [Issues Page](issues.md) to understand the broader context of the problem** before diving into the investigation.
+I reviewed the system in detail and identified several key areas that contributed to the issue. For a full breakdown of the investigation process, please refer to the **Investigation Page**. It is recommended to first review the [Issues Page](issues.md) to understand the broader context of the problem before diving into the investigation.
 
 1. **Maintenance Plan Review:** I reviewed the SQL Server maintenance plan configuration.
 2. **Job History Analysis:** I checked SQL Server Agent job logs, which showed backup tasks failing daily at 2 AM.
