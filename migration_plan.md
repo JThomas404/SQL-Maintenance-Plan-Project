@@ -2,7 +2,7 @@
 
 ## Overview
 
-To prevent future backup issues and enhance the scalability, availability, and disaster recovery of our backup solutions, we have developed a comprehensive migration plan. The solution transitions our current backup system to a dedicated, high-availability, AWS-hosted backup architecture. This migration aims to ensure that backups are more resilient, can scale to accommodate growth, and provide better disaster recovery capabilities.
+To prevent future backup issues and enhance the scalability, availability, and disaster recovery of our backup solutions, we have developed a comprehensive migration plan. The solution transitions our current backup system for Butternut Box to a dedicated, high-availability, AWS-hosted backup architecture. This migration aims to ensure that backups are more resilient, can scale to accommodate growth, and provide better disaster recovery capabilities.
 
 ### Objectives:
 - **Move backups to a separate, dedicated backup server or cloud-based storage (AWS S3).**
@@ -99,9 +99,9 @@ In the next phase, we will transition to a more robust backup solution that ensu
 
 | Phase                        | Task                                        | Estimated Time | Dependencies               |
 |------------------------------|---------------------------------------------|----------------|----------------------------|
-| **Phase 1**                  | Backup to S3 Setup                         | 3 days         | None                       |
-| **Phase 2**                  | AWS Backup Implementation and Testing      | 4 days         | Phase 1                    |
-| **Phase 3**                  | Full Go-Live Migration to Cloud-based Backup| 2 days         | Phase 2                    |
+| **Phase 1**                  | Backup to S3 Setup                         | 3 weeks         | None                       |
+| **Phase 2**                  | AWS Backup Implementation and Testing      | 4 weeks         | Phase 1                    |
+| **Phase 3**                  | Full Go-Live Migration to Cloud-based Backup| 2 weeks        | Phase 2                    |
 | **Post-Go-Live**             | Monitoring and Backup Retention Policies    | Ongoing        | Phase 3                    |
 
 ---
